@@ -1,0 +1,44 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "User Greeting"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Hi TEST, How may I help you today? 🤖 To assist you faster below are some of the options that you can select: ",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Write \"option-1\" for Datacenter Cloud",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Write \"option-2\" for property",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Write \"option-3\" for corporate",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "GO NETBOX",
+                    "url": "https://demo.netbox.dev"
+                }
+            ],
+            "$data": "Submit"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}

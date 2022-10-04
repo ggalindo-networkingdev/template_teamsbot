@@ -1,0 +1,24 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Bot Greeting"
+        },
+        {
+            "type": "TextBlock",
+            "text": "You chose the PagerDuty menu 🟢 ",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "type \"teams\" for get all teams names",
+            "wrap": true
+        }
+    ],
+    
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}
